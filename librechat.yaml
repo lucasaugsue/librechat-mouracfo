@@ -10,6 +10,11 @@ cache: true
 # Custom interface configuration
 interface:
   customWelcome: "Welcome to LibreChat! Enjoy your experience."
+  presets: false
+  prompts: false
+  agents: false
+  multiConvo: false
+
   # Privacy policy settings
   # privacyPolicy:
   #   externalUrl: 'https://librechat.ai/privacy-policy'
@@ -22,7 +27,7 @@ interface:
 
   # Comentario do lukas
   # Tanto o privacyPolicy quanto o termsOfService aparecem no footer na tela de login
-   
+  
 # Example Registration Object Structure (optional)
 registration:
   socialLogins: ['github', 'google', 'discord', 'openid', 'facebook', 'apple']
